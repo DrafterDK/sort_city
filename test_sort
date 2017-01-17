@@ -1,0 +1,29 @@
+city_trip c1 = new city_trip();
+        
+            c1.city_start = "1";
+            c1.city_end = "2";
+            city_trip c2 = new city_trip();
+            c2.city_start = "3";
+            c2.city_end = "4";
+            city_trip c3 = new city_trip();
+            c3.city_start = "2";
+            c3.city_end = "3";
+            city_trip c4 = new city_trip();
+            c4.city_start = "4";
+            c4.city_end = "5";
+            city_trip c5 = new city_trip();
+            c5.city_start = "6";
+            c5.city_end = "7";
+            city_trip c6 = new city_trip();
+            c6.city_start = "5";
+            c6.city_end = "6";
+
+            List<city_trip> list = new List<city_trip>();
+            list.Add(c1);
+            list.Add(c2);
+            list.Add(c3);
+            list.Add(c4);
+            list.Add(c5);
+            list.Add(c6);
+
+            sotr_city(list);
